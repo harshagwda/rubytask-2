@@ -80,8 +80,10 @@ module Things_i_can_do_with_a_sentence
 	end
 
     def sort_sentence
-		name = "Clark Kent Kal El"
-		 puts "#{name.partition(" ").last}"
+    	the_array = "HelloWorldBye"
+		the_array = string.split(' ')
+  		sorted_array = the_array.sort_by { |a| a.length }
+  		return sorted_array.join(' ')
 		 # puts b
 	end
 end
