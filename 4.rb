@@ -7,11 +7,10 @@ class SmartHome
 			passage
 			hall
 		elsif @a == "off"
-			puts "the power supply is OFF"
-		elsif @a == "doomsday"
+			puts "the power supply is OFF, Siwtching to Emergency backup"
 			fail_safe
 		end
-	end
+	end	
 	private
 	def passage
 		puts "Switch to turn on a particular lights in the Passage"
